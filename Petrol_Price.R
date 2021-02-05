@@ -2,11 +2,11 @@ library(shiny)
 library(shinyWidgets)
 library(plotly)
 
-dataread<-read.csv("C:\\Users\\lenovo IP330s\\Desktop\\Python_Project\\petrol5.csv", header = T)
+dataread<-read.csv("C:\\Users\\Arpitha Shibu\\Desktop\\Python_Project\\petrol5.csv", header = T)
 
 #Loading the dataset
-data <- read.csv("C:\\Users\\lenovo IP330s\\Desktop\\Python_Project\\Petrol Price Original.csv", header = T)
-datapp <- read.csv("C:\\Users\\lenovo IP330s\\Desktop\\Python_Project\\predicted11.csv", header = T)
+data <- read.csv("C:\\Users\\Arpitha Shibu\\Desktop\\Python_Project\\Petrol Price Original.csv", header = T)
+datapp <- read.csv("C:\\Users\\Arpitha Shibu\\Desktop\\Python_Project\\predicted11.csv", header = T)
 
 # Packages
 library(tseries)
